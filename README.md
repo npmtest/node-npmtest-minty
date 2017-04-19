@@ -1,4 +1,7 @@
-# test coverage for  [minty (v0.5.10)](https://www.mintyjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-minty.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-minty) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-minty.svg)](https://travis-ci.org/npmtest/node-npmtest-minty)
+# npmtest-minty
+
+#### test coverage for  [minty (v0.5.10)](https://www.mintyjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-minty.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-minty) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-minty.svg)](https://travis-ci.org/npmtest/node-npmtest-minty)
+
 #### Node process visualization
 
 [![NPM](https://nodei.co/npm/minty.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/minty)
