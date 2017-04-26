@@ -1,6 +1,6 @@
 # npmtest-minty
 
-#### test coverage for  [minty (v0.5.10)](https://www.mintyjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-minty.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-minty) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-minty.svg)](https://travis-ci.org/npmtest/node-npmtest-minty)
+#### basic test coverage for  [minty (v0.5.10)](https://www.mintyjs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-minty.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-minty) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-minty.svg)](https://travis-ci.org/npmtest/node-npmtest-minty)
 
 #### Node process visualization
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-minty/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-minty/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-minty/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-minty/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-minty/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-minty/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-minty/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-minty/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-minty/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-minty/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-minty/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-minty/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
         "test-travis": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/backend",
         "zombie": "mocha --timeout 5000 test/front-end-test.js"
     },
-    "version": "0.5.10"
+    "version": "0.5.10",
+    "bin": {}
 }
 ```
 
